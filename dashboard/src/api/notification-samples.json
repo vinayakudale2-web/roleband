@@ -212,7 +212,7 @@
   "title": "1 new role on your radar today"
  },
  {
-  "body": "Strong fit: Group Product Manager at Google DeepMind, plus 2 more",
+  "body": "Strong fit: Group Product Manager at Google DeepMind and 2 more",
   "case": "digest-strong-lead",
   "say": {
    "body": [
@@ -249,7 +249,7 @@
   "title": "3 new roles on your radar today"
  },
  {
-  "body": "Good fit: Group Product Manager at Google DeepMind, plus 2 more",
+  "body": "Good fit: Group Product Manager at Google DeepMind and 2 more",
   "case": "digest-good-lead",
   "say": {
    "body": [
@@ -286,7 +286,7 @@
   "title": "3 new roles on your radar today"
  },
  {
-  "body": "Fair fit: Group Product Manager at Google DeepMind, plus 2 more",
+  "body": "Fair fit: Group Product Manager at Google DeepMind and 2 more",
   "case": "digest-fair-lead",
   "say": {
    "body": [
@@ -323,7 +323,7 @@
   "title": "3 new roles on your radar today"
  },
  {
-  "body": "Weak fit: Group Product Manager at Google DeepMind, plus 2 more",
+  "body": "Weak fit: Group Product Manager at Google DeepMind and 2 more",
   "case": "digest-weak-lead",
   "say": {
    "body": [
@@ -1774,7 +1774,7 @@
   "title": "Scan finished, but a step after it didn't"
  },
  {
-  "body": "Finished at 2026-09-27 10:05 UTC after 2h 5m. Your computer slept for 16m 27s during the scan, which can cut a company's scan short. Problems at: Microsoft. Roles: 120 found · 4 added · 78 seen again or closed",
+  "body": "Finished at 2026-09-27 10:05 UTC after 2h 5m. This computer slept for 16m 27s during the scan, so some companies were only partly scanned. Problems at: Microsoft. Roles: 120 found · 4 added · 78 seen again or closed",
   "case": "problems-while-asleep",
   "say": {
    "body": [

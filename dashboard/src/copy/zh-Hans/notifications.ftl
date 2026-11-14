@@ -320,7 +320,7 @@ notif-post-pass-unfinished = 扫描后的一个步骤未完成。错误信息见
 notif-every-source-delivered = 每家公司都已扫描，但扫描后的一个步骤未完成。错误信息见详情。
 notif-data-saved = 扫描找到的内容已保存。
 notif-scan-problems = 扫描完成，但有问题
-notif-asleep = 扫描期间你的电脑休眠了 { $duration }，这可能导致某家公司的扫描不完整。
+notif-asleep = 扫描期间，你的电脑休眠了 { $duration }，因此，部分公司的扫描可能只完成了一部分。
 notif-unreached = { $count ->
    *[other] 扫描达到时间上限前未能扫描 { $sources }。下次扫描前，其招聘信息保持最后一次看到的状态。
 }
