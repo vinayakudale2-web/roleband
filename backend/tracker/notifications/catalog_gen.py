@@ -3,7 +3,7 @@ from tracker.notifications.catalog_format import _f, _se
 
 MESSAGES = {
     "notif-affected-none": lambda a: "no single company",
-    "notif-asleep": lambda a: "Your computer slept for "+_f(a["duration"])+" during the scan, which can cut a company's scan short.",
+    "notif-asleep": lambda a: "This computer slept for "+_f(a["duration"])+" during the scan, so some companies were only partly scanned.",
     "notif-changed": lambda a: _f(a["company"])+" changed a role you saved",
     "notif-closed": lambda a: _f(a["company"])+" closed a role you saved",
     "notif-companies": lambda a: (_f(a["count"])+" company" if _se(a["count"],"one") else _f(a["count"])+" companies"),
@@ -32,7 +32,7 @@ MESSAGES = {
     "notif-digest": lambda a: (_f(a["count"])+" new role on your radar today" if _se(a["count"],"one") else _f(a["count"])+" new roles on your radar today"),
     "notif-digest-fit": lambda a: _f(a["band"])+" fit: "+_f(a["lead"]),
     "notif-digest-lead": lambda a: _f(a["title"])+" at "+_f(a["company"]),
-    "notif-digest-more": lambda a: _f(a["lead"])+", plus "+_f(a["more"])+" more",
+    "notif-digest-more": lambda a: _f(a["lead"])+" and "+_f(a["more"])+" more",
     "notif-due-today": lambda a: "due today",
     "notif-duration-hours": lambda a: _f(a["h"])+"h "+_f(a["m"])+"m",
     "notif-duration-minutes": lambda a: _f(a["m"])+"m "+_f(a["s"])+"s",

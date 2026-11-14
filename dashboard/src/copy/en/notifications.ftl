@@ -466,9 +466,9 @@ notif-digest = { $count ->
 notif-digest-lead = { $title } at { $company }
 # kind=notification wording=as-is
 notif-digest-fit = { $band } fit: { $lead }
+# kind=notification same-as=notif-sources-more
+notif-digest-more = { $lead } and { $more } more
 # kind=notification
-notif-digest-more = { $lead }, plus { $more } more
-# kind=notification wording=as-is
 notif-follow-up = Follow up with { $company } · { $when }
 # kind=notification wording=as-is
 notif-due-today = due today
@@ -586,7 +586,7 @@ notif-data-saved = What the scan found is saved.
 # kind=notification wording=as-is
 notif-scan-problems = Scan finished with problems
 # kind=notification
-notif-asleep = Your computer slept for { $duration } during the scan, which can cut a company's scan short.
+notif-asleep = This computer slept for { $duration } during the scan, so some companies were only partly scanned.
 # kind=notification
 notif-unreached = { $count ->
     [one] { $sources } wasn't reached before the scan's time limit. Its postings stay as last seen until the next scan.
